@@ -22,16 +22,18 @@
 
 def show_me_money(string)
   index = 0
-  $ = "$"
+  money = ""
   while index < string.length
     if string[index] == "$"
-      return "true"
+      money = "true"
+      break
     else
-      return "false"
+      money = "false"
     end
     index += 1
   end
+  return money
 end
 
-p show_me_money("i hate $ but i love money i know i know im crazy")
+p show_me_money("abcd$efg")
 
