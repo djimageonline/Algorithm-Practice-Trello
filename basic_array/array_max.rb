@@ -13,7 +13,7 @@
 # max = 0
 # array.length
 
- 
+      
 # [5, 17, -4, 20, 12]
 # current_number = -4
 # max = 17
