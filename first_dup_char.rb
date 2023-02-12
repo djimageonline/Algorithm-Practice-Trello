@@ -28,4 +28,4 @@ def first_dup(string)
   end
 end
 
-p first_dup("abcdefghhijkkloooop")
+p first_dup("abcdefghijkkloooop")
