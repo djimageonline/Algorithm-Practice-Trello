@@ -25,6 +25,6 @@ def reverse_string(string)
   return reverse
 end
 
-p reverse_string("water")
+p reverse_string("popcorn is so cool isn’t it yeah i thought so")
 
 

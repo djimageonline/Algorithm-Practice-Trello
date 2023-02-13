@@ -25,6 +25,7 @@
 
 def hamming(string1, string2)
   total_different = 0
+  empty = 0
   index = 0
   while index < string1.length && index < string2.length
     if string1[index] != string2[index]
@@ -33,11 +34,10 @@ def hamming(string1, string2)
     index += 1
   end
   return total_different
+  return empty
 end
 
-
-
-p hamming("ABCDEFG", "ABCXEOLGHJKLK")
+p hamming("ABCDEFG", "ABCXEOG")
 
 
 
