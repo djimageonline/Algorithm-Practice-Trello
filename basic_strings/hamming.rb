@@ -16,16 +16,24 @@
 # total_different = 0
 # take in 2 strings
 # index1 = 0, increase by 1 until the string.length
-# index2 = 0, increase by 1 util string.length within the second loop do a:
-# conditional: sting1[index] is not the same as string2[index] then we went to add the occurence to total_different characters. 
-# increase the index by 1 and return the total_different.
-#         v          v
-# Input: "ABCDEFG", "ABCXEOG",
-# Output: 0
+# if both string are equal in length
+#   conditional: sting1[index] is not the same as string2[index] then we went to add the occurence to total_different characters. 
+#   increase the index by 1 and return the total_different.
+# else
+#   first while loop string 1.length
+#   index2 = 0
+#     second while loop string2.length
+#       conditional: if sting1[index] is not the same as string2[index] then we went to add the occurence to total_different characters.
+#       else if string1[index] != string2[index]
+
+
+
+        v          v
+Input: "ABCDEFG", "ABCXEOG",
+Output: 0
 
 def hamming(string1, string2)
   total_different = 0
-  empty = 0
   index = 0
   while index < string1.length && index < string2.length
     if string1[index] != string2[index]
@@ -34,10 +42,9 @@ def hamming(string1, string2)
     index += 1
   end
   return total_different
-  return empty
 end
 
-p hamming("ABCDEFG", "ABCXEOG")
+p hamming("ABSDEFG", "ABCXEOG")
 
 
 

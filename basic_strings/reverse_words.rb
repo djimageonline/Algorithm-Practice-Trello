@@ -14,15 +14,20 @@
 # end
 # return the new_string.
 
+
 def reversed_words(string)
   split_string = string.split
   index = split_string.length - 1
   reverse_string = ""
   while index >= 0
-    reverse_string = reverse_string + split_string[index] + " "
+    if index > 0
+      reverse_string = reverse_string + split_string[index] + " "
+    else
+      reverse_string = reverse_string + split_string[index]
+    end
     index -= 1
   end
-  return reverse_string.strip
+  return reverse_string
 end
 
 p reversed_words("popcorn is so cool isn’t it yeah i thought so")
