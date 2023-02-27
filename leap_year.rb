@@ -29,14 +29,12 @@ def leap_year(year)
       "#{year} is a leap year 1"
     elsif year % 100 == 0 && year % 400 != 0
       "#{year} is not a leap year 1"
-
     elsif year % 100 != 0
         "#{year} is leap year 2"
     end
   else
     "#{year} is not a leap year 2"
   end
-  
 end
         
 p leap_year(2020)
