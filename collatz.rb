@@ -52,4 +52,4 @@ def collatz(num)
   return steps
 end
 
-p collatz(3)
+p collatz(999)
