@@ -84,14 +84,7 @@ p merge_sort([1, 5, 8], [ 6, 9])
 #       new_array_pointer += 1
 #     end 
 
-#     if pointer1 < arr1.length
-#       new_array[new_array_pointer] = arr1[pointer1]
-#       pointer2 += 1
-#       new_array_pointer += 1
-#     elsif pointer2 < arr2.length
-#       new_array[new_array_pointer] = arr2[pointer2]
-#       pointer1 += 1
-#       new_array_pointer += 1
+    
 #     end
 #   end
 
@@ -99,3 +92,6 @@ p merge_sort([1, 5, 8], [ 6, 9])
 # end
 
 # p merge_sort([1, 5, 8], [ 6, 9])
+
+1 5 6 8 9
+1 5 3
