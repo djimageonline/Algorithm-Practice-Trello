@@ -33,4 +33,4 @@ function twoSum(nums) {
   }
 }
 
-console.log(twoSum([2, 5, 3, 1, 0, 7, 11]));
+console.log(twoSum([2, 5, 4, 1, 0, 6, 11]));
