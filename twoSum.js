@@ -52,19 +52,23 @@
 
 // # Find indeces of the two numbers that equal the provided number.
 
-function twoSum(array, num) {
-  let sum = 0;
+// function twoSum(array, num) {
+//   let sum = 0;
 
-  for (let pointer1 = 0; pointer1 < array.length; pointer1++) {
-    for (let pointer2 = 0; pointer2 < array.length; pointer2++) {
-      sum = array[pointer1] + array[pointer2];
-      if (array[pointer1] !== array[pointer2]) {
-        if (sum === num) {
-          return `${pointer1}, ${pointer2}`;
-        }
-      }
-    }
-  }
-}
+//   for (let pointer1 = 0; pointer1 < array.length; pointer1++) {
+//     for (let pointer2 = 0; pointer2 < array.length; pointer2++) {
+//       sum = array[pointer1] + array[pointer2];
+//       if (array[pointer1] !== array[pointer2]) {
+//         if (sum === num) {
+//           return `${pointer1}, ${pointer2}`;
+//         }
+//       }
+//     }
+//   }
+// }
 
-console.log(twoSum([2, 5, 3, 1, 0, 7, 11], 13));
+// console.log(twoSum([2, 5, 3, 1, 0, 7, 11], 13));
+
+// function ticTacToe(){
+//   player
+// }
